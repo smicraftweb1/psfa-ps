@@ -1,0 +1,42 @@
+.pastoral {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+/* Layout das holycards */
+.pastoral {
+    border: 2px solid #8f5e3c; 
+    padding: 20px; 
+    background-color: #f7f4f1; 
+    border-radius: 10px; 
+    text-align: center; 
+    flex: 1 1 30%; /* Flexível, ocupando 30% do espaço disponível */
+    box-sizing: border-box; /* Inclui o padding e border no cálculo da largura */
+    min-width: 250px; /* Garante que a holycard tenha uma largura mínima */
+}
+
+/* Estilizando a imagem */
+.pastoral img {
+    border-radius: 50%; 
+    border: 3px solid #8f5e3c; 
+    margin-top: 15px; 
+    width: 150px; /* Define o tamanho fixo da imagem */
+    height: 150px;
+}
+
+
+.pastoral h2 {
+    font-size: 1.6rem;
+    color: #8f5e3c;
+}
+
+.pastoral p {
+    font-size: 1rem;
+    color: #4d4037;
+}
+/**FEITO PO SHARLYSON**/
